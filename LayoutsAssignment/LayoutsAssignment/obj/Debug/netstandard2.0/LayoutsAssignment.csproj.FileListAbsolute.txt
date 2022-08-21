@@ -1,0 +1,16 @@
+E:\Work\Link Development\LayoutsAssignment\LayoutsAssignment\LayoutsAssignment\bin\Debug\netstandard2.0\LayoutsAssignment.deps.json
+E:\Work\Link Development\LayoutsAssignment\LayoutsAssignment\LayoutsAssignment\bin\Debug\netstandard2.0\LayoutsAssignment.dll
+E:\Work\Link Development\LayoutsAssignment\LayoutsAssignment\LayoutsAssignment\bin\Debug\netstandard2.0\LayoutsAssignment.pdb
+E:\Work\Link Development\LayoutsAssignment\LayoutsAssignment\LayoutsAssignment\obj\Debug\netstandard2.0\LayoutsAssignment.csproj.AssemblyReference.cache
+E:\Work\Link Development\LayoutsAssignment\LayoutsAssignment\LayoutsAssignment\obj\Debug\netstandard2.0\LayoutsAssignment.GeneratedMSBuildEditorConfig.editorconfig
+E:\Work\Link Development\LayoutsAssignment\LayoutsAssignment\LayoutsAssignment\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\Work\Link Development\LayoutsAssignment\LayoutsAssignment\LayoutsAssignment\obj\Debug\netstandard2.0\Stack1.xaml.g.cs
+E:\Work\Link Development\LayoutsAssignment\LayoutsAssignment\LayoutsAssignment\obj\Debug\netstandard2.0\Stack2.xaml.g.cs
+E:\Work\Link Development\LayoutsAssignment\LayoutsAssignment\LayoutsAssignment\obj\Debug\netstandard2.0\LayoutsAssignment.AssemblyInfoInputs.cache
+E:\Work\Link Development\LayoutsAssignment\LayoutsAssignment\LayoutsAssignment\obj\Debug\netstandard2.0\LayoutsAssignment.AssemblyInfo.cs
+E:\Work\Link Development\LayoutsAssignment\LayoutsAssignment\LayoutsAssignment\obj\Debug\netstandard2.0\LayoutsAssignment.csproj.CoreCompileInputs.cache
+E:\Work\Link Development\LayoutsAssignment\LayoutsAssignment\LayoutsAssignment\obj\Debug\netstandard2.0\XamlC.stamp
+E:\Work\Link Development\LayoutsAssignment\LayoutsAssignment\LayoutsAssignment\obj\Debug\netstandard2.0\LayoutsAssignment.dll
+E:\Work\Link Development\LayoutsAssignment\LayoutsAssignment\LayoutsAssignment\obj\Debug\netstandard2.0\refint\LayoutsAssignment.dll
+E:\Work\Link Development\LayoutsAssignment\LayoutsAssignment\LayoutsAssignment\obj\Debug\netstandard2.0\LayoutsAssignment.pdb
+E:\Work\Link Development\LayoutsAssignment\LayoutsAssignment\LayoutsAssignment\obj\Debug\netstandard2.0\ref\LayoutsAssignment.dll
