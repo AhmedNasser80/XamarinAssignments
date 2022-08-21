@@ -15,6 +15,10 @@ namespace LayoutsAssignment
         public Stack2()
         {
             InitializeComponent();
+            Button btn = new Button();
+            btn.Clicked += Btn_Clicked;
+            btn.Text = "Grid1";
+            btn.Margin = new Thickness(0, 20, 0, 0);
             StackLayout stackLayout = new StackLayout
             {
                 Spacing = 0,
@@ -64,9 +68,14 @@ namespace LayoutsAssignment
                     Text = "this is shot Yesterday"
 
                 },
+                btn
             }
             };
             Content = stackLayout;
+        }
+        private async void Btn_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Grid1());
         }
     }
 }

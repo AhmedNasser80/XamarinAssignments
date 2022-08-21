@@ -14,3 +14,5 @@ E:\Work\Link Development\LayoutsAssignment\LayoutsAssignment\LayoutsAssignment\o
 E:\Work\Link Development\LayoutsAssignment\LayoutsAssignment\LayoutsAssignment\obj\Debug\netstandard2.0\refint\LayoutsAssignment.dll
 E:\Work\Link Development\LayoutsAssignment\LayoutsAssignment\LayoutsAssignment\obj\Debug\netstandard2.0\LayoutsAssignment.pdb
 E:\Work\Link Development\LayoutsAssignment\LayoutsAssignment\LayoutsAssignment\obj\Debug\netstandard2.0\ref\LayoutsAssignment.dll
+E:\Work\Link Development\LayoutsAssignment\LayoutsAssignment\LayoutsAssignment\obj\Debug\netstandard2.0\Grid1.xaml.g.cs
+E:\Work\Link Development\LayoutsAssignment\LayoutsAssignment\LayoutsAssignment\obj\Debug\netstandard2.0\Grid2.xaml.g.cs
