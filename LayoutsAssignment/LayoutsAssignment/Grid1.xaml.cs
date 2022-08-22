@@ -29,7 +29,8 @@ namespace LayoutsAssignment
                     new RowDefinition(),
                     new RowDefinition(),
                     new RowDefinition(),
-                    new RowDefinition()
+                    new RowDefinition(), 
+                    new RowDefinition(),
 
                 },
                 ColumnDefinitions =
@@ -156,7 +157,7 @@ namespace LayoutsAssignment
                 BackgroundColor= Color.LightGreen,
 
             }, 1, 4) ;
-            grid.Children.Add(btn);
+            grid.Children.Add(btn,1,5);
             Content = grid;
         }
         

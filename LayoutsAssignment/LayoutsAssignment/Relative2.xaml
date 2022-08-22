@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LayoutsAssignment.Relative2">
+    
+    <RelativeLayout>
+        <BoxView BackgroundColor="LightGray" x:Name="price"
+             RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Factor=1,Property=Width}"
+              RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Factor=0.4,Property=Height}">
+        </BoxView>
+        <ContentView RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,ElementName=price,Property=Width,Factor=0.3}"
+                     RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,ElementName=price, Property=Height,Factor=0.3}">
+            <StackLayout>
+                <Label Text="$11.25" FontSize="50" TextColor="Black"></Label>
+                <Button Text="Add $7.99 Credit" FontSize="15" BackgroundColor="Tomato"></Button>
+            </StackLayout>
+        </ContentView>
+        <ContentView
+            RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,ElementName=price,Property=Width,Factor=0.25}"
+                     RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,ElementName=price, Property=Height,Factor=1.2}">
+            <StackLayout>
+                <Label Text="Why Pay For Credit ?" FontSize="20" TextColor="White" Margin="0,0,0,20"></Label>
+                <Label Text="Because You can reach" FontSize="15" TextColor="Wheat"></Label>
+                <Label Text="peaple who you aren't" FontSize="15" TextColor="Wheat" Margin="0,-5"></Label>
+
+            </StackLayout>
+        </ContentView>
+    </RelativeLayout>
+   
+</ContentPage>

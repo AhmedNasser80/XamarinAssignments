@@ -16,7 +16,16 @@ namespace LayoutsAssignment
         private List<Product> ProductArrayList;
         public Grid2()
         {
+
             InitializeComponent();
+            Button btn = new Button();
+            btn.Clicked += Btn_Clicked;
+            btn.Text = "Relative1";
+            btn.Margin = new Thickness(0, 20, 0, 0);
+            Button btn2 = new Button();
+            btn2.Clicked += Btn2_Clicked;
+            btn2.Text = "Relative2";
+            btn2.Margin = new Thickness(0, 20, 0, 0);
             ProductArrayList = new List<Product>();
             ProductArrayList.Add(new Product {Name="Mocca"});
             ProductArrayList.Add(new Product { Name = "Espresso" });
@@ -26,6 +35,8 @@ namespace LayoutsAssignment
 
             gridLayout.RowDefinitions.Add(new RowDefinition());
             gridLayout.RowDefinitions.Add(new RowDefinition());
+            gridLayout.RowDefinitions.Add(new RowDefinition());
+
             gridLayout.ColumnDefinitions.Add(new ColumnDefinition());
             gridLayout.ColumnDefinitions.Add(new ColumnDefinition());
             gridLayout.ColumnDefinitions.Add(new ColumnDefinition());
@@ -49,8 +60,20 @@ namespace LayoutsAssignment
                     gridLayout.Children.Add(label, columnIndex, rowIndex);
                 }
             }
+            gridLayout.Children.Add(btn,0,2);
+            gridLayout.Children.Add(btn2, 2, 2);
 
 
+
+
+        }
+        private async void Btn_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Relative1());
+        }
+        private async void Btn2_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Relative2());
         }
     }
 }

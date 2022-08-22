@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LayoutsAssignment.Relative1">
+    <ContentPage.Content>
+        <RelativeLayout x:Name="Relative">
+            <ContentView x:Name="parent">
+                <Image Source="https://aka.ms/campus.jpg" Aspect="AspectFill" VerticalOptions="FillAndExpand" HeightRequest="700"/>
+            </ContentView>
+
+
+            <StackLayout HorizontalOptions="CenterAndExpand" BackgroundColor="Black">
+                <Label Text="Relax" FontSize="30"></Label>
+            </StackLayout>
+                <StackLayout VerticalOptions="EndAndExpand" BackgroundColor="Black" Padding="85" Orientation="Horizontal" RelativeLayout.XConstraint="{ConstraintExpression Type=Constant, Factor=0.3}"
+                 RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.7}">
+            <Label Text="profile" FontSize="20"  TextColor="White" Margin="0,0,10,0"></Label>
+                <Label Text="meditate" FontSize="20"  TextColor="White" Margin="0,0,10,0"></Label>
+                <Label Text="Themes" FontSize="20"  TextColor="White"></Label>
+            </StackLayout>
+        </RelativeLayout>
+    </ContentPage.Content>
+</ContentPage>
